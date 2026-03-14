@@ -1,17 +1,10 @@
 ---
-import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
 import QrCard from "../components/QrCard.astro";
 ---
 
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>QR Code</title>
-</head>
+<Layout>
 
-<body class="bg-[#d5e1ef] flex items-center justify-center min-h-screen">
+  <QrCard />
 
-<QrCard />
-
-</body>
-</html>
+</Layout>
